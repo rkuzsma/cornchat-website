@@ -31,3 +31,8 @@ node_sass:
   includePaths:
    - node_modules
    - themes
+
+deploy:
+  type: git
+  repo: https://github.com/rkuzsma/cornchat-website
+  branch: gh-pages
