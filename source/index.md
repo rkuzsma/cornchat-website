@@ -3,7 +3,7 @@ title: CornChat - HipChat's Missing Features
 
 # CornChat
 
-_Enhance HipChat with the features you've always wanted._
+_Get the HipChat features you've always wanted._
 
 Tag individual messages, and use Github-Flavored Markdown:
 
