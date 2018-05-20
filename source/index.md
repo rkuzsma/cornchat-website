@@ -26,10 +26,14 @@ The Beta version of CornChat is now available.
 
 ### HipChat for Mac Installation
 
-```bash
-$ (todo: some cmd to inject the bundle)
+Open `/Applications/HipChat.app/Contents/Resources/chat.html` and add this line at the bottom:
+
 ```
-> Restart your HipChat client and you should see it running.
+<script src="https://builds.cornchat.online/ProdCornChat-bundle.js"></script>
+```
+
+Restart your HipChat client and you should see it running.
+
 
 ### HipChat Browser Installation
 
@@ -37,9 +41,10 @@ Login to your HipChat app and run this command to inject CornChat onto the page:
 
 ```javascript
 var cornchat = document.createElement('script');
-cornchat.setAttribute('src','https://TODO_PROVIDE_FULL_PATH_TO_THE_BUNDLE/bundle.js');
+cornchat.setAttribute('src','https://builds.cornchat.online/ProdCornChat-bundle.js');
 document.head.appendChild(cornchat);
 ```
+
 
 ### HipChat for Windows
 
@@ -56,7 +61,7 @@ TODO: Teaser about how it works, with link to deeper architecture.
 
 CornChat is [free](https://github.com/rkuzsma/cornchat/) and [open source](https://github.com/rkuzsma/cornchat) forever.
 
-Reactions and tags are stored on our AWS server. No guarantees for uptime or data loss. You can always (TODO: LINK!) host it yourself if the free, public, hosted version isn't sufficient.
+Reactions and tags are stored on our AWS server. No guarantees for uptime or data loss. You can always [host it yourself](https://github.com/rkuzsma/cornchat/) if the free, public, hosted version isn't sufficient.
 
 
 ## Cure Cancer

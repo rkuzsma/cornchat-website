@@ -9,7 +9,9 @@ timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-root: /cornchat-website/
+# for https://rkuzsma.github.io/cornchat-website/, it must be: root: /cornchat-website/
+# for https://www.cornchat.online/, it must be: root: /
+root: /
 
 # Writing
 relative_link: false
