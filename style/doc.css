@@ -3875,6 +3875,12 @@ body {
 a.doc-anchor {
   display: none; }
 
+a {
+  color: #1e87cb; }
+
+a:hover {
+  color: #26aafe; }
+
 h1:after {
   content: ' ';
   display: block;
