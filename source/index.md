@@ -64,6 +64,6 @@ CornChat is [free](https://github.com/rkuzsma/cornchat/) and [open source](https
 Reactions and tags are stored on our AWS server. No guarantees for uptime or data loss. You can always [host it yourself](https://github.com/rkuzsma/cornchat/) if the free, public, hosted version isn't sufficient.
 
 
-## Cure Cancer
+# Cure Cancer
 
-Like CornChat? Hate Cancer? Please help my daughter Quinn and [donate 5 bucks to Alex’s Lemonade Stand](https://www.alexslemonade.org/donate). Don’t think too hard about it, just do it. It takes 2 minutes and the payment form is beautifully designed. You'll feel great doing it.
+Like CornChat? Hate Cancer? Please help my daughter Quinn and [donate 5 bucks to Alex’s Lemonade Stand](https://www.alexslemonade.org/mypage/1455792/donate/nojs). Don’t think too hard about it, just do it. It takes 2 minutes and the payment form is beautifully designed. You'll feel great doing it.
