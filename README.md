@@ -13,11 +13,14 @@ hexo s
 
 Browse to http://localhost:4000
 
-To build and deploy to GitHub pages at https://rkuzsma.github.io/cornchat-website/ run:
+To build and deploy to GitHub pages at [https://rkuzsma.github.io/cornchat-website/](https://rkuzsma.github.io/cornchat-website/) run:
 ```
-hexo generate
-hexo deploy
+hexo generate -d
 ```
+
+The CSS and image paths will appear broken on the github pages site, but they work on [www.cornchat.online](https://www.cornchat.online/).
+
+A CNAME file is configured for [https://www.cornchat.online/](https://www.cornchat.online/)
 
 ## License
 
