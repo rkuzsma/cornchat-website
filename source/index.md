@@ -32,6 +32,13 @@ Open `/Applications/HipChat.app/Contents/Resources/chat.html` and add this line 
 <script src="https://builds.cornchat.online/ProdCornChat-bundle.js"></script>
 ```
 
+Or, run this command from your terminal to add the line automatically:
+```
+HTML=/Applications/HipChat.app/Contents/Resources/chat.html \
+sudo cp "$HTML" "$HTML.backup" &&
+sed -e ':a' -e 'N' -e '$!ba' -e 's/\n<\/body>/<script src=\"https:\/\/builds.cornchat.online\/ProdCornChat-bundle.js\"><\/script><\/body>/g' $HTML.backup | sudo -E tee $HTML
+```
+
 Restart your HipChat client and you should see it running.
 
 
